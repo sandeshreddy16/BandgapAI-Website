@@ -11,7 +11,7 @@ from matminer.featurizers.composition import ElementProperty
 app = FastAPI(title="Band Gap Predictor API")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["https://bandgapai.onrender.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
